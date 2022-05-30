@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+.container {
+    background-image: url(../assets/Trianglify-10s-1536px.svg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+.header {
+    padding: 0 1rem;
+    background-color: rgba(42, 42, 42, 0.893);
+}
+
+.scrum-heading {
+    font-family: "Roboto", sans-serif;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: rgba(147, 147, 147, 0.316);
+}
+
+.scrum-heading h3 {
+    margin: 0;
+}
+.title {
+    display: inline-block;
+    background: linear-gradient(
+        to right,
+        rgb(163, 97, 255),
+        rgb(179, 125, 255),
+        rgb(48, 186, 255),
+        rgb(22, 255, 224)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+app-test-drag {
+    flex-grow: 1;
+}
